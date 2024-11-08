@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Awesome Page</title>
+    <style>
+        .nav-bar { background-color: #333; color: white; padding: 10px; }
+        .modal { display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="nav-bar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h1>Welcome to My Awesome Page</h1>
+        <div class="modal" id="modal1">
+            <h2>Modal Title</h2>
+            <p>Modal Content</p>
+            <button onclick="document.getElementById('modal1').style.display='none'">Close</button>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <button onclick="validateForm()">Submit</button>
+    </div>
+
+    <script>
+        function validateForm() {
+            // Basic form validation
+        }
+    </script>
+</body>
+</html>

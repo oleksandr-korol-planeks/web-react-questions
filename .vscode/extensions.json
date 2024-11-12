@@ -11,6 +11,7 @@
         "davidanson.vscode-markdownlint",
         "vunguyentuan.vscode-postcss",
         "esbenp.prettier-vscode",
-        "viijay-kr.react-ts-css"
+        "viijay-kr.react-ts-css",
+        "ritwickdey.liveserver"
     ]
 }

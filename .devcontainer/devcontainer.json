@@ -1,0 +1,19 @@
+{
+  "name": "My Project",
+  "extensions": [
+    "ms-vscode.live-server",
+    "michelemelluso.code-beautifier",
+    "aaron-bond.better-comments",
+    "vunguyentuan.vscode-css-variables",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-mermaid",
+    "davidanson.vscode-markdownlint",
+    "vunguyentuan.vscode-postcss",
+    "esbenp.prettier-vscode",
+    "viijay-kr.react-ts-css",
+    "ritwickdey.liveserver"
+  ],
+  "postCreateCommand": "cd react && yarn install"
+}
